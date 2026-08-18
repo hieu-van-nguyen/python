@@ -1,8 +1,7 @@
 from google import genai
 from google.genai import types
 
-# 1. Configuration
-API_KEY = "YOUR_API_KEY"
+from config import API_KEY
 client = genai.Client(api_key=API_KEY)
 MODEL_ID = "gemini-3-flash-preview" # High-speed, agentic model
 

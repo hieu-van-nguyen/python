@@ -1,8 +1,7 @@
 from google import genai
 from google.genai import types
 
-# 1. Initialize the client with your API key
-API_KEY = "YOUR_API_KEY"
+from config import API_KEY
 client = genai.Client(api_key=API_KEY)
 
 # 2. Define the Agent's system instructions
